@@ -21,6 +21,7 @@ p{
 
 li{
     display:inline;
+    margin: 0 25px 0;
 }
 .header > * {
     display:inline-block;
@@ -40,30 +41,36 @@ li{
 
 .navbar{
     width:60%;
-    text-align: left;
+    text-align: center;
     font-weight: 500;
     margin: 0 25px;
     color:#025157;
 }
 .actions{
     font-size: 14px;
-    width:15;
+    width:15%;
     text-align: right;
     margin: 0 10px;
+    font-weight: 600;
 }
-.actionsA{
+.actions > a{
     color:#67b54b;
     font-size: 14px;
     width:15;
-    text-align: right;
+    text-align: center;
     margin: 0 10px;
 }
-.actionsB{
+.actions > button{
     color:white;
     background-color: #67b54b;
     padding: 12px 14px;
     border: 0;
     border-radius: 5px;
+    text-align: right;
+  top: 0%;
+  left: 100%;
+
+
 }
 .main{
     margin-top: 140px;
