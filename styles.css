@@ -11,3 +11,62 @@ p{
     font-family: Verdana;
     font-size:19;
 }
+.header{
+    /*margin: 30px 20px 10px 0*/
+    margin: 30px 20px 0;
+    font-size: 0;
+    height: 45px;
+    font-style: sans-serif;
+}
+
+li{
+    display:inline;
+}
+.header > * {
+    display:inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+    
+}
+.logo{
+    width:15%;
+}
+
+.logo>img{
+    width:30%;
+}
+
+.navbar{
+    width:60%;
+    text-align: left;
+    font-weight: 500;
+    margin: 0 25px;
+    color:#025157;
+}
+.actions{
+    font-size: 14px;
+    width:15;
+    text-align: right;
+    margin: 0 10px;
+}
+.actionsA{
+    color:#67b54b;
+    font-size: 14px;
+    width:15;
+    text-align: right;
+    margin: 0 10px;
+}
+.actionsB{
+    color:white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+.main{
+    margin-top: 140px;
+    text-align: center;
+
+}
