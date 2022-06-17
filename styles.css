@@ -13,10 +13,11 @@ p{
 }
 .header{
     /*margin: 30px 20px 10px 0*/
-    margin: 30px 20px 0;
-    font-size: 0;
-    height: 45px;
+    height: 10%;
     font-style: sans-serif;
+    position: fixed;
+    top:2%;
+    left:0;
 }
 
 li{
@@ -29,7 +30,6 @@ li{
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
-    
 }
 .logo{
     width:15%;
@@ -67,13 +67,24 @@ li{
     border: 0;
     border-radius: 5px;
     text-align: right;
-  top: 0%;
-  left: 100%;
+    top: 0%;
+    left: 100%;
 
 
 }
 .main{
-    margin-top: 140px;
+    margin-top: 15%;
     text-align: center;
 
+}
+
+.article{
+    font-size: 1.5rem;
+    background-color: white;
+    font-family: 'Times New Roman';
+}
+
+.aside{
+    display:block;
+    text-align: right; 
 }
