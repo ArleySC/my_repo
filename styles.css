@@ -50,11 +50,11 @@ body {
   }
   
   .logo {
-    width: 15%;
+    width: 5%;
   }
   
   .logo > img {
-    width: 15%;
+    width: 100%;
   }
   
   .navbar {
@@ -199,4 +199,12 @@ body {
   .explanatory-video img {
     width: 120px;
     margin-top: 10px;
+  }
+
+  .navbar-brand{
+    font-size: 1em;
+  }
+
+  @media (max-width: 500px){
+    
   }
