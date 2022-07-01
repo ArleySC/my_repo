@@ -1,0 +1,22 @@
+{
+  "name": "bedu_course_phase1",
+  "version": "1.0.0",
+  "description": "Learning frontend with BEDU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArleySC/my_repo.git"
+  },
+  "author": "ArleySC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArleySC/my_repo/issues"
+  },
+  "homepage": "https://github.com/ArleySC/my_repo#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
